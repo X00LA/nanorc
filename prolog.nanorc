@@ -1,7 +1,8 @@
 ## Here is a prolog example.
 
-syntax prolog "\.pl"
-comment "%"
+syntax "prolog" "\.pl"
+# Comments
+color green "%"
 
 # Reset everything
 color white ".*"
