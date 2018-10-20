@@ -3,7 +3,7 @@
 syntax "Config" "\_config$"
 ## Possible errors and parameters
 ## Standard
-icolor white ""
+#icolor white ""
 ## Strings
 icolor brightblue ""(\\.|[^"])*""
 ## Comments
