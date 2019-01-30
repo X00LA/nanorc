@@ -5,6 +5,12 @@ comment "%"
 
 # Reset everything
 color brightwhite ".*"
+=======
+# Comments
+color green "%"
+
+# Reset everything
+color white ".*"
 
 # Integers and floats
 color yellow "(^| |=)[0-9]+\.?[0-9]*"
@@ -19,6 +25,8 @@ color yellow "(^|[[:blank:]]|\(|,)_($|[[:blank:]]|,|\))"
 # Functions
 color cyan "(^|[[:blank:]])\w+\("
 color brightwhite "\(|\)|\[|\]|,|=|\\="
+=======
+color white "\(|\)|\[|\]|,|=|\\="
 
 # Atoms
 color green start="\"" end="\""

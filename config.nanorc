@@ -1,0 +1,13 @@
+## Here is an example for nanorc files.
+##
+syntax "Config" "\_config$"
+## Possible errors and parameters
+## Standard
+#icolor white ""
+## Strings
+icolor brightblue ""(\\.|[^"])*""
+## Comments
+icolor brightgreen "^[[:space:]]*#.*$"
+icolor brightgreen "^[[:space:]]*##.*$"
+## Trailing spaces
+color ,cyan "[[:space:]]+$"
