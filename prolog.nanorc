@@ -1,11 +1,11 @@
 ## Here is a prolog example.
 
 syntax "prolog" "\.pl"
-comment "%"
+#comment "%"
 
 # Reset everything
 color brightwhite ".*"
-=======
+#=======
 # Comments
 color green "%"
 
@@ -25,7 +25,7 @@ color yellow "(^|[[:blank:]]|\(|,)_($|[[:blank:]]|,|\))"
 # Functions
 color cyan "(^|[[:blank:]])\w+\("
 color brightwhite "\(|\)|\[|\]|,|=|\\="
-=======
+#=======
 color white "\(|\)|\[|\]|,|=|\\="
 
 # Atoms
